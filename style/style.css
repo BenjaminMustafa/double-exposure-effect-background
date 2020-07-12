@@ -1,0 +1,45 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    min-height: 100vh;
+    position: relative;
+}
+.hero img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+    
+    
+    
+}
+.hero video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    
+
+}
+section{
+    z-index: 2;
+    background-color: black;
+    color: aliceblue;
+    background-size: 100vh;
+}
+
+
